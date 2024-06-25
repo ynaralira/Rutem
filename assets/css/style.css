@@ -120,6 +120,7 @@
         .about > .info > .text {
             width: 100vw;
             font-size: 17px;
+            max-width: 70vw;
         }
         .t1{
             font-size: 20px;
