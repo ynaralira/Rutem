@@ -1,0 +1,89 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    :root{
+        --orange-claro: #FF8F50;
+        --orange-escuro: #ED5500;
+    }
+    body{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--orange-escuro);
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .link-nav{
+      margin: 1rem;
+      transition: ease-out 1ms;
+    }
+    .link-nav:hover{
+     font-weight: 400;
+     border-bottom: var(--orange-escuro) 2px solid;
+     transition: ease-out 5ms;
+    }
+    .btn-outline{
+        height: 2.5rem;
+        width: 6rem;
+        background-color: white;
+        font-weight: bold;
+        color: var(--orange-escuro);
+        border-radius: 5px;
+        border: 1px solid var(--orange-escuro);
+        transition: ease-out 1ms;
+    }
+    .btn-outline:hover{
+        background-color: var(--orange-escuro);
+        font-weight: bold;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    .btn-orange{
+        height: 2.5rem;
+        width: 6rem;
+        background-color: var(--orange-escuro);
+        font-weight: bold;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    .t1{
+        font-size: 25px;
+    }
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about > .info{
+        flex-direction: column;
+    }
+    .about > .info > div{
+        max-width: 50vw;
+        font-size: 20px;
+    }
+    .about > .info > .btns{
+        display: flex;
+        align-items: center;
+    }
+    .about > .info > .btns > button{
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 10rem;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .about > .info > .btns > button:hover{
+        box-shadow: #494949 1px 3px;
+        transition: ease-out 50ms;
+    }
+    .pointer{
+        cursor: pointer;
+    }
