@@ -141,7 +141,6 @@
         align-items: center;
         flex-direction: column;
     }
-
     footer{
         background-color: var(--orange-escuro);
         padding: 5rem;
