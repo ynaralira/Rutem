@@ -141,6 +141,7 @@
             display: flex;
             align-items: center;
             flex-direction: column;
+            text-align: center;
         }
 
        .desenho {
@@ -148,7 +149,7 @@
             height: 60px;
             border-radius: 10px 10px 0px 100px;
             background: #C02A16;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
 
     .desenho2 {
@@ -156,7 +157,7 @@
                 height: 60px;
                 border-radius: 10px 10px 0px 100px;
                 background: #363636;
-                margin-bottom: 1rem;
+                margin-bottom: 4rem;
             }
 
     .desenho3 {
@@ -164,7 +165,7 @@
                 height: 60px;
                 border-radius: 10px 10px 0px 100px;
                 background: #ED5500;
-                margin-bottom: 1rem;
+                margin-bottom: 4rem;
             }
 
         .card > button {
