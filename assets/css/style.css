@@ -175,6 +175,7 @@
         font-weight: bold;
         border: none;
     }
+    
     .red{
         background-color: var(--red);
     }
