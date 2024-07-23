@@ -133,7 +133,7 @@
         margin-top: 2rem;
     }
     .container-planos > .cards-planos > .card {
-            width: 15rem;
+            width: 18rem;
             height: 80vh;
             border-radius: 10px;
             text-align: center;
@@ -149,7 +149,7 @@
             height: 60px;
             border-radius: 10px 10px 0px 100px;
             background: #C02A16;
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
 
     .desenho2 {
@@ -157,7 +157,7 @@
                 height: 60px;
                 border-radius: 10px 10px 0px 100px;
                 background: #363636;
-                margin-bottom: 4rem;
+                margin-bottom: 3rem;
             }
 
     .desenho3 {
@@ -165,7 +165,7 @@
                 height: 60px;
                 border-radius: 10px 10px 0px 100px;
                 background: #ED5500;
-                margin-bottom: 4rem;
+                margin-bottom: 3rem;
             }
 
         .card > button {
@@ -177,3 +177,8 @@
         padding: 5rem;
         margin-top: 3rem;
     }
+
+a{
+    text-decoration: none;
+    color: black;
+}
