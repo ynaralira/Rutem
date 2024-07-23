@@ -4,8 +4,10 @@
     :root{
         --orange-claro: #FF8F50;
         --orange-escuro: #ED5500;
-        --black-claro: #363636;
-        --red-claro: #C02A16;
+        --black: #363636;
+        --red: #C02A16;
+        --black-claro: #5f5f5f;
+        --red-claro: #f3614e;
         --shadow-black: #494949 1px 3px;
         --shadow-white: #d6d6d6 1px 1px 5px 2px;
     }
@@ -85,6 +87,7 @@
     .about > .info > .btns{
         display: flex;
         align-items: center;
+        margin-top: 2rem;
     }
     .about > .info > .btns > button{
         margin-right: 10px;
@@ -99,6 +102,9 @@
     }
     .pointer{
         cursor: pointer;
+    }
+    .img > img{
+        width: 350px;
     }
     .icons-container{
         display: flex;
@@ -170,13 +176,13 @@
         border: none;
     }
     .red{
-        background-color: var(--red-claro);
+        background-color: var(--red);
     }
     .orange{
         background-color: var(--orange-escuro);
     }
     .black{
-        background-color: var(--black-claro);
+        background-color: var(--black);
     }
     footer{
         display: flex;
